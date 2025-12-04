@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home - Coffee House</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/script.js" defer></script>
+  </head>
+
+  <body>
+    <audio id="clickSound" src="/static/sound/click.mp3"></audio>
+
+    <nav class="navbar">
+      <h2>Coffee House ☕</h2>
+
+      <div>
+        <a href="/">
+          Home
+        </a>
+        <a href="/dashboard">
+          Dashboard
+        </a>
+        <a href="/menu">
+          Menu
+        </a>
+        <a href="/order">
+          Cart
+        </a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <h1>Welcome to Coffee House</h1>
+
+      <p>
+        Fresh coffee, warm vibes. Start your day with us.
+      </p>
+      
+      <button class="btn" onclick="location.href='/menu'">
+        Explore Menu
+      </button>
+    </section>
+  </body>
+</html>

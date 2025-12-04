@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Coffee Menu</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/script.js" defer></script>
+  </head>
+
+  <body onload="loadMenu()">
+    <audio id="clickSound" src="/static/sound/click.mp3"></audio>
+    
+    <nav class="navbar">
+      <h2>Coffee House ☕</h2>
+      
+      <div>
+        <a href="/">
+          Home
+        </a>
+        <a href="/dashboard">
+          Dashboard
+        </a>
+        <a href="/menu">
+          Menu
+        </a>
+        <a href="/order">
+          Cart
+        </a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1>Coffee Menu</h1>
+
+      <div id="menu-list" class="card-container"></div>
+    </div>
+  </body>
+</html>
